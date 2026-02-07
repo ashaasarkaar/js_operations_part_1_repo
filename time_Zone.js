@@ -11,3 +11,10 @@ console.log(dateString.toLocaleDateString())
 console.log(dateString.toLocaleString('en-GB'))
 console.log(dateString.toLocaleString('bn-BD'))
 
+console.log(Date.now());
+
+const d = new Date(0);
+console.log(d.toUTCString());
+
+const e = new Date(7, 2, 2026);
+console.log(e.toUTCString());
